@@ -1,16 +1,20 @@
-<h1> Lesson 18.2: Machine Learning and Artificial Intelligence  </h1>
+<h1> Lesson 1.5: Fundamentals of Secure Systems  </h1>
 <h2> Summary</h2>
 
-<p1>In this lesson students will examine the emerging technology of AI and machine learning and how it relates to the cyber landscape..</p1>
+<p1>After this lesson, students will understand the Security by Design principle, its quintessential role in software development, and how it intertwines with each phase of the Software Development Life Cycle (SDLC).</p1>
 <br>
 
 <h2>Learning Objectives</h2>
 <ul>
-<li>Contrast Narrow AI and AGI.</li>
+<li>Understand the definition and importance of the Security by Design principle in modern software development.</li>
   <br>
-<li>Know cybersecurity applications of AI and Machine Learning.</li><br>
+<li>Analyze how the Security by Design principle integrates with each Software Development Life Cycle (SDLC) phase.</li><br>
   
-<li>Give an example of Narrow AI.</li>
+<li>Recognize and describe the Singleton, Factory Method, and Proxy design patterns and their relevance in enhancing system security.</li><br>
+
+<li>Explain and demonstrate the application of the Least Privilege Principle, Defense in Depth, and Fail Securely in developing secure systems.</li><br>
+
+<li>Demonstrate the ability to embody the Security by Design ethos in planning and executing software development tasks, contributing to the broader cybersecurity landscape.</li>
 
 </ul>
 
@@ -19,16 +23,39 @@
 <ul>
 <li>
 
-  **Artificial Intelligence - AI**</li>
+  **Security by Design**</li>
   
 <li>
 
-**Machine Learning**</li>
+**Least Privilege Principle**</li>
   
 <li>
   
-**Algorithms**</li>
+**Fail Securely**</li>
+
+<li>
   
+**Singleton Pattern**</li>
+
+<li>
+  
+**Factory Method Pattern**</li>
+
+<li>
+  
+**Proxy Pattern**</li>
+
+<li>
+  
+**Access Control**</li>
+
+<li>
+  
+**Threat Mitigation**</li>
+
+<li>
+  
+**SDLC - Software Development Life Cycle**</li>
 
 </ul>
 
@@ -39,101 +66,66 @@
 <br>
 
 
-<h2>What is Machine Learning?</h2>
+<h2>Introduction</h2>
+
+In the swiftly evolving digital domain, securing systems and data is no longer a choice but a necessity. At the heart of this necessity is the principle of Security by Design, a proactive approach to ensure that security measures are integrated right from the inception of system design. This principle interlaces with each phase of the Software Development Life Cycle (SDLC), ensuring a fortified defense against the ever-present cyber threats.
+
+
+ <h2>Introduction to Security by Design</h2>
+
+ <ins>Definition</ins>: Security by Design is the practice of planning and implementing security protocols throughout the development process of systems and software rather than adding them later on.
+
+ <ins>Importance</ins>: With security embedded from the get-go, systems are better poised to withstand cyber-attacks, provide safe user experiences, and comply with legal and regulatory requirements.
+
+<h2>Integration with the Software Development Life Cycle (SDLC)</h2>
+<p1>Security considerations are introduced early in the SDLC, ensuring that each phase— from design to deployment— incorporates the necessary security checks and balances.
+</p1>
+
+<h2>Principles of Security by Design</h2>
 <ul>
-	<li>Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. Machine learning focuses on the development of computer programs that can access data and use it to learn for themselves. </li><br>
-	<li>The process of learning begins with observations or data, such as examples, direct experience, or instruction, in order to look for patterns in data and make better decisions in the future based on the examples that we provide.  
-</li><br>
-	<li>The primary aim is to allow the computers to learn automatically without human intervention or assistance and adjust actions accordingly. But, using the classic algorithms of machine learning, text is considered as a sequence of keywords; instead, an approach based on semantic analysis mimics the human ability to understand the meaning of a text. </li><br>
-	
-</ul>
-
-<h2>Machine Learning Algorithms</h2>
-
-<ul>
-	<li>Machine learning algorithms are often categorized as <ins>supervised or unsupervised</ins>. </li><br>
-	<li><ins>Supervised machine:</ins> 
-			<ul>
-			<li>Learning algorithms can apply what has been learned in the past to new data using labeled examples to predict future events. Starting from the analysis of a known training dataset, the learning algorithm produces an inferred function to make predictions about the output values. The system is able to provide targets for any new input after sufficient training. The learning algorithm can also compare its output with the correct, intended output and find errors in order to modify the model accordingly.</li>
-		</ul>
-
-<li><ins>Unsupervised machine:</ins> 
-	
-<ul>
-		<li>Learning algorithms are used when the information used to train is neither classified nor labeled. Unsupervised learning studies how systems can infer a function to describe a hidden structure from unlabeled data. The system doesn’t figure out the right output, but it explores the data and can draw inferences from datasets to describe hidden structures from unlabeled data.</li>
-		</ul
- <li><ins>Semi-supervised machine:</ins> 
-	 <ul>
-		 <li>Learning algorithms fall somewhere in between supervised and unsupervised learning, since they use both labeled and unlabeled data for training – typically a small amount of labeled data and a large amount of unlabeled data. The systems that use this method are able to considerably improve learning accuracy. Usually, semi-supervised learning is chosen when the acquired labeled data requires skilled and relevant resources in order to train it / learn from it. Otherwise, acquiring unlabeled data generally doesn’t require additional resources.</li>
-	 </ul>
- </li>
-<li><ins>Reinforcement machine</ins>
-	<br>
-	<ul>
-		<li>Learning algorithms is a learning method that interacts with its environment by producing actions and discovers errors or rewards. Trial and error search and delayed reward are the most relevant characteristics of reinforcement learning.</li><br>
-	</ul>
-	
-<li>This method allows machines and software agents to automatically determine the ideal behavior within a specific context in order to maximize its performance. Simple reward feedback is required for the agent to learn which action is best; this is known as the reinforcement signal. </li><br>
-<li>Machine learning enables analysis of massive quantities of data. While it generally delivers faster, more accurate results in order to identify profitable opportunities or dangerous risks, it may also require additional time and resources to train it properly. Combining machine learning with AI and cognitive technologies can make it even more effective in processing large volumes of information.</li>
- </ul>
-
-
- <h2>What is Artificial Intelligence?</h2>
- <ul>
-	 <li>Artificial intelligence (AI) is a wide-ranging branch of computer science concerned with building smart machines capable of performing tasks that typically require human intelligence. </li> <br>
-	 <li>AI is an interdisciplinary science with multiple approaches, but advancements in machine learning and deep learning are creating a paradigm shift in virtually every sector of the tech industry. </li><br>
-	 <li>The major limitation in defining AI as simply "building machines that are intelligent" is that it actually doesn't </li><br>
-	 <li>While these definitions may seem abstract to the average person, they help focus the field as an area of computer science and provide a blueprint for infusing machines and programs with machine learning and other subsets of artificial intelligence. AI falls under two broad categories: </li><br>
-	 <li>Narrow AI: Sometimes referred to as "Weak AI," this kind of artificial intelligence operates within a limited context and is a simulation of human intelligence. Narrow AI is often focused on performing a single task extremely well and while these machines may seem intelligent, they are operating under far more constraints and limitations than even the most basic human intelligence. </li><br>
-	 <li>Artificial General Intelligence (AGI): AGI, sometimes referred to as "Strong AI," is the kind of artificial intelligence we see in films like robots androids. AGI is a machine with general intelligence and, much like a human being, it can apply that intelligence to solve any problem. </li>
- </ul>
-
-
-<h2>Machine Learning and Cybersecurity</h2>
-It’s important to understand that machine learning is not a panacea, but it can provide a great deal of support to a cybersecurity or IT team. While ML may have a long way to go before it can be used for threat detection on its own without human intervention, there are many tasks it can handle to level up security. <br>
-
-<h3>Some benefits of ML include:</h3>
-
-<ul>
-	<li><ins>Classification</ins> 
+	<li><h4>Least Privilege Principle</li></h4>
+	<ul><li><ins>Definition:</ins> This principle implies that every user or system should have the least amount of privilege necessary to perform its tasks, minimizing the potential damage from accidental mishaps or intentional malfeasance.
 		
+</li></ul>
+	<li><h4>Defense in Depth</li></h4>
+ <ul><li><ins>Definition:</ins> A strategy that employs a series of defensive mechanisms in layers ensuring that if one layer is breached, others are in place to thwart the attack.
+		
+</li></ul>
+	<li><h4>Fail Securely</li></h4>
+ <ul><li><ins>Definition:</ins> This principle ensures that in the event of a system failure, the system does not default to an insecure state, thus averting potential exploitation.
+		
+</li></ul>
+</ul>
+
+<h2>Security Design Patterns</h2>
 <ul>
-  <li>Programs classify data based on predetermined parameters.</li>
-  </ul>
-  
-<li><ins>Clustering</ins>
- <ul>
-  <li>For data that doesn’t fit preset parameters, ML groups data based on their similarities or anomalies.</li>
-  </ul>
-	<li><ins>Recommendations</ins> 
-		<ul>
-  <li>Programs learn from past choices, inputs and associations to recommend approaches and decisions.</li>
-  </ul>
-	<li><ins>Generative frameworks</ins>
-		<ul>
-  <li>Based on past data inputs, programs generate possibilities that can be applied to data that hadn’t encountered those specific inputs before.</li>
-  </ul>
-	<li><ins>Predictions</ins> 
-		<ul>
-  <li>Programs forecast based on data sets and past outcomes.</li>
-		</ul>
+	<li><h4>Singleton Pattern</li></h4>
+
+ <ul><li><ins>Definition:</ins> Ensures a class has only one instance and provides a global point of access to that instance, aiding in controlling access to shared resources. </li></ul>
+	<li><h4>Factory Method Pattern</li></h4>
+ <ul><li><ins>Definition:</ins> Provides an interface for creating objects but allows subclasses to alter the type of objects that will be created, thus encapsulating object creation and enhancing security. </li></ul>
+	<li><h4>Proxy Pattern</li></h4>
+ <ul><li><ins>Definition:</ins> Acts as an intermediary between a client and the actual object, controlling access and protecting the real object from undue exposure. </li></ul>
 </ul>
 
 
+<h2>Network Equipment and Services Protection</h2>
+As we strive to create secure applications, equal emphasis should be placed on safeguarding network equipment and services. Intruders often target routers, switches, and other network devices. The principles of Security by Design extend to network equipment, ensuring robust security at every layer of the digital infrastructure.
+<h2>Varying Levels of Security</h2>
+While Security by Design lays a solid foundation, different scenarios may necessitate varying levels of security. It's pivotal to assess the unique security needs of each scenario, employing additional security layers or adopting specific security design patterns accordingly.
 
 <h2>Conclusion</h2>
+Achieving a robust security posture necessitates the apt implementation of the Security by Design principle. By comprehending and applying this principle alongside its core tenets and design patterns, we are better equipped to create systems and software that are resilient to cyber threats, ensuring a secure digital landscape for users and organizations alike.
 
-AI and ML are becoming integral to cybersecurity, and already are in many ways. While they can be used at different levels and capacities, there are algorithms and techniques that can make an organization's security run more smoothly and free up a security team’s time for other important tasks.
 
 
 
 <h2> Presentation</h2>
 
-<a href="https://docs.google.com/presentation/d/1DOIEpOQXTDK7qWWfVAHIWJN1cl16HsN2/edit?usp=sharing&ouid=110228847857413878764&rtpof=true&sd=true"> Blockchain and Cryptocurrency</a>
+
 
 
 <h2> Hands-On Labs</h2>
 
-<a href = "https://drive.google.com/file/d/1Vw2j5EedXWBvHjhGMm0xyMLyopgPtZZn/view?usp=sharing"> The Blockchain Game </a>
 
 <h2> Additional Resources</h2>
