@@ -118,26 +118,34 @@ While Security by Design lays a solid foundation, different scenarios may necess
 Achieving a robust security posture necessitates the apt implementation of the Security by Design principle. By comprehending and applying this principle alongside its core tenets and design patterns, we are better equipped to create systems and software that are resilient to cyber threats, ensuring a secure digital landscape for users and organizations alike.
 
 <h2>Definitions</h2>
-<b>Security by Design:</b> An approach to software and hardware development where security is built into the system from the ground up.<br>
+<ul>
+<li><b>Security by Design:</b> An approach to software and hardware development where security is built into the system from the ground up.<br>
 <br>
 
-<b>Least Privilege Principle:</b> A security concept in which users and systems are granted the minimum levels of access – or permissions – necessary to perform their functions.
+<li><b>Least Privilege Principle:</b> A security concept in which users and systems are granted the minimum levels of access – or permissions – necessary to perform their functions.<br>
+<br>
 
-<b>Fail Securely:</b> A design principle that ensures systems remain secure even when they encounter errors or failures.
+<li><b>Fail Securely:</b> A design principle that ensures systems remain secure even when they encounter errors or failures.<br>
+<br>
 
-<b>Singleton Pattern:</b> A design pattern that restricts the instantiation of a class to one single instance, ensuring controlled access to the instance.
+<li><b>Singleton Pattern:</b> A design pattern that restricts the instantiation of a class to one single instance, ensuring controlled access to the instance.<br>
+<br>
 
-<b>Factory Method Pattern:</b> A creational design pattern that uses factory methods to create objects without specifying the exact class of object that will be created.
+<li><b>Factory Method Pattern:</b> A creational design pattern that uses factory methods to create objects without specifying the exact class of object that will be created.<br>
+<br>
 
-<b>Proxy Pattern:</b> A structural design pattern that provides a surrogate or placeholder for another object to control access to it.
+<li><b>Proxy Pattern:</b> A structural design pattern that provides a surrogate or placeholder for another object to control access to it.<br>
+<br>
 
-<b>Access Control:</b> The process of granting or denying specific requests to obtain and use information and related information processing services.
+<li><b>Access Control:</b> The process of granting or denying specific requests to obtain and use information and related information processing services.<br>
+<br>
 
-<b>Threat Mitigation:</b> The implementation of measures to reduce the impact or likelihood of security threats and vulnerabilities.
+<li><b>Threat Mitigation:</b> The implementation of measures to reduce the impact or likelihood of security threats and vulnerabilities.<br>
+<br>
 
-<b>SDLC (Software Development Life Cycle):</b> A process for planning, creating, testing, and deploying information systems, which includes phases such as requirements gathering, design, implementation, testing, deployment, and maintenance.
+<li><b>SDLC (Software Development Life Cycle):</b> A process for planning, creating, testing, and deploying information systems, which includes phases such as requirements gathering, design, implementation, testing, deployment, and maintenance.
 
-
+</ul>
 <h2> Presentation</h2>
 
 
