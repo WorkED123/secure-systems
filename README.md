@@ -117,7 +117,7 @@ While Security by Design lays a solid foundation, different scenarios may necess
 <h2>Conclusion</h2>
 Achieving a robust security posture necessitates the apt implementation of the Security by Design principle. By comprehending and applying this principle alongside its core tenets and design patterns, we are better equipped to create systems and software that are resilient to cyber threats, ensuring a secure digital landscape for users and organizations alike.
 
-<h2>Definitons</h2>
+<h2>Definitions</h2>
 <b>Security by Design:</b> An approach to software and hardware development where security is built into the system from the ground up.<br>
 <br>
 
